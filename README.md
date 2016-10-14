@@ -1,4 +1,4 @@
-#Get a picture
+# Get a picture
 
 import time
 
@@ -18,7 +18,7 @@ camera.start_preview()
 
 #camera.image_effect = 'gpen'
 
-# Give the camera some time to adjust to conditions
+#Give the camera some time to adjust to conditions
 
 time.sleep(2)
 
