@@ -1,15 +1,2 @@
-# darbot
-import time
-import picamera
-
-with picamera.PiCamera() as camera:
-    camera.resolution = (1024, 768)
-    camera.start_preview()
-    #camera.exposure_compensation = 2
-    #camera.exposure_mode = 'spotlight'
-    #camera.meter_mode = 'matrix'
-    #camera.image_effect = 'gpen'
-    # Give the camera some time to adjust to conditions
-    time.sleep(2)
-    camera.capture('myFace.jpg')
-    camera.stop_preview()
+# Darbot
+These are my copies of the files for ACU's "Darbot" project. Here I'll be copying, editing, and testing code before trying to clone it to the master version of Darbot's vision code.
